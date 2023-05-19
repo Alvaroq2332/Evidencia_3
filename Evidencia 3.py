@@ -15,7 +15,7 @@ try:
 except:
     print()
     print('No se ha encontrado ningun archivo previo de guardado')
-    print('*SE HA GENERADO UN ARCHIVO CSV EN BLANCO*')
+    print('**SE HA GENERADO UN ARCHIVO CSV EN BLANCO**')
     archivo = open("libros.csv","w", newline="")
     grabador = csv.writer(archivo)
     grabador.writerow(("Identificador", "titulo", "autor",'genero','año publicacion',"isbn",'fecha adquisicion'))
